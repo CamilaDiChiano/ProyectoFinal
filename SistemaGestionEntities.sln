@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{CC8293E4-03DB-49A2-874C-42F3C58B8DCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{CC8293E4-03DB-49A2-874C-42F3C58B8DCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGestionDataNET", "SistemaGestionDataNET\SistemaGestionDataNET.csproj", "{B834D8E8-1AC7-42CE-A5E6-9A0444EB9587}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaGestionDataNET", "SistemaGestionDataNET\SistemaGestionDataNET.csproj", "{B834D8E8-1AC7-42CE-A5E6-9A0444EB9587}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGestionBussinessNET", "SistemaGestionBussinessNET\SistemaGestionBussinessNET.csproj", "{EC8973C9-6A6D-4A8B-9432-3EBB4CBE1BF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaGestionBussinessNET", "SistemaGestionBussinessNET\SistemaGestionBussinessNET.csproj", "{EC8973C9-6A6D-4A8B-9432-3EBB4CBE1BF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGestionEntitiesNET", "SistemaGestionEntitiesNET\SistemaGestionEntitiesNET.csproj", "{5ECF92E1-7CCD-4653-A524-A95966ABC6D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaGestionEntitiesNET", "SistemaGestionEntitiesNET\SistemaGestionEntitiesNET.csproj", "{5ECF92E1-7CCD-4653-A524-A95966ABC6D4}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BaseDeDatos", "BaseDeDatos\BaseDeDatos.sqlproj", "{076F08BC-5F62-44D0-BE49-8EF51CAF06AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login", "Login\Login.csproj", "{7ADD210A-0D18-463E-A6C8-74A9C7708573}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,16 @@ Global
 		{5ECF92E1-7CCD-4653-A524-A95966ABC6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ECF92E1-7CCD-4653-A524-A95966ABC6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ECF92E1-7CCD-4653-A524-A95966ABC6D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{076F08BC-5F62-44D0-BE49-8EF51CAF06AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076F08BC-5F62-44D0-BE49-8EF51CAF06AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076F08BC-5F62-44D0-BE49-8EF51CAF06AA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{076F08BC-5F62-44D0-BE49-8EF51CAF06AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076F08BC-5F62-44D0-BE49-8EF51CAF06AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{076F08BC-5F62-44D0-BE49-8EF51CAF06AA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7ADD210A-0D18-463E-A6C8-74A9C7708573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ADD210A-0D18-463E-A6C8-74A9C7708573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ADD210A-0D18-463E-A6C8-74A9C7708573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ADD210A-0D18-463E-A6C8-74A9C7708573}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

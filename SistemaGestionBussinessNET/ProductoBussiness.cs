@@ -10,7 +10,12 @@ namespace SistemaGestionBussiness
 {
     public class ProductoBussiness
     {
-       
+
+        public static List<Producto> GetProductos()
+        {
+            return ProductoData.GetProductos();
+        }
+
 
         public static void EliminarProducto(int id)
         {

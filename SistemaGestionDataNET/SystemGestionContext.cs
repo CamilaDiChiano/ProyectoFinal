@@ -21,7 +21,7 @@ namespace SistemaGestionBussiness
             try
             {
                 optionsBuilder.UseSqlServer(
-                    @"Server=(localdb)\mssqllocaldb;Database=SistemaGestionEF3;Trusted_Connection=True");
+                    @"Server=(localdb)\mssqllocaldb;Database=SistemaGestionEF;Trusted_Connection=True");
 
             }
             catch (Exception ex)

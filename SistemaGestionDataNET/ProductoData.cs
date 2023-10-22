@@ -13,6 +13,27 @@ namespace SistemaGestionEntities
 {
     public static class ProductoData
     {
+
+        public static List<Producto> GetProductos()
+        {
+            try
+            {
+                using (var context = new SistemaGestionContext())
+                {
+                    return context.Productos.ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine("Error al obtener el producto: " + ex.Message);
+
+                return null;
+            }
+
+
+        }
+
         public static Producto ObtenerProducto(int id)
         {
             try

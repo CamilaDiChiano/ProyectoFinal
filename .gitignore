@@ -11,3 +11,7 @@
 /SistemaGestionEntitiesNET/obj
 /WebAPI/bin/Debug/net6.0
 /WebAPI/obj
+/Login/bin/Debug/net6.0-windows
+/Login/obj
+/WinFormsApp1
+*.sql
